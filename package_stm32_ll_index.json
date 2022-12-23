@@ -1,12 +1,12 @@
 {
   "packages": [
     {
-      "name": "STMicroelectronics",
-      "websiteURL": "https://github.com/stm32duino",
-      "maintainer": "STMicroelectronics",
-      "email": "stmduino@st.com",
+      "name": "STM32_ll_core",
+      "websiteURL": "https://github.com/geosmall/BoardManagerFiles",
+      "maintainer": "George Small",
+      "email": "stmduino@gmail.com",
       "help": {
-        "online": "http://www.stm32duino.com/"
+        "online": "https://github.com/geosmall/BoardManagerFiles"
       },
       "platforms": [
         {
