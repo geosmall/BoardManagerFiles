@@ -300,7 +300,7 @@
             }
           ]
         },
-      ],
+      ]
       "tools": [
         {
           "name": "xpack-arm-none-eabi-gcc",
