@@ -19,32 +19,10 @@
           "checksum": "SHA-256:31e7a98afdc595335acbd111b39563350eb63bd0bcd005aebbe6fe1f8bad26fe",
           "size": "38496810",
           "boards": [
-            {"name": "Nucleo-144"},
             {"name": "Nucleo-64"},
-            {"name": "Nucleo-32"},
-            {"name": "Discovery"},
-            {"name": "Eval"},
-            {"name": "STM32MP1 series coprocessor"},
-            {"name": "Generic STM32F0 series"},
-            {"name": "Generic STM32F1 series"},
-            {"name": "Generic STM32F2 series"},
-            {"name": "Generic STM32F3 series"},
             {"name": "Generic STM32F4 series"},
             {"name": "Generic STM32F7 series"},
-            {"name": "Generic STM32G0 series"},
-            {"name": "Generic STM32G4 series"},
-            {"name": "Generic STM32H7 Series"},
-            {"name": "Generic STM32L0 series"},
-            {"name": "Generic STM32L1 series"},
-            {"name": "Generic STM32L4 series"},
-            {"name": "Generic STM32L5 series"},
-            {"name": "Generic STM32WB series"},
-            {"name": "Electronic speed controllers"},
-            {"name": "LoRa boards"},
-            {"name": "3D printer boards"},
-            {"name": "Generic Flight Controllers"},
-            {"name": "Garatronic-McHobby"},
-            {"name": "Midatronics boards"}
+            {"name": "Generic STM32H7 Series"}
           ],
           "toolsDependencies": [
             {
