@@ -48,17 +48,17 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "STMicroelectronics",
+              "packager": "geosmall",
               "name": "xpack-arm-none-eabi-gcc",
               "version": "9.3.1-1.3"
             },
             {
-              "packager": "STMicroelectronics",
+              "packager": "geosmall",
               "name": "STM32Tools",
               "version": "2.0.0"
             },
             {
-              "packager": "STMicroelectronics",
+              "packager": "geosmall",
               "name": "CMSIS",
               "version": "5.7.0"
             }
