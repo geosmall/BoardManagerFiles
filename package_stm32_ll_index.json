@@ -1,9 +1,9 @@
 {
   "packages": [
     {
-      "name": "STMicroelectronics",
-      "websiteURL": "https://github.com/stm32duino",
-      "maintainer": "STMicroelectronics",
+      "name": "geosmall",
+      "websiteURL": "https://github.com/geosmall",
+      "maintainer": "geosmall",
       "email": "stmduino@st.com",
       "help": {
         "online": "http://www.stm32duino.com/"
