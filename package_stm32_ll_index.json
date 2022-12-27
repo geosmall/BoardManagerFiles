@@ -12,12 +12,12 @@
         {
           "name": "STM32 MCU based boards",
           "architecture": "stm32",
-          "version": "0.0.2",
+          "version": "0.0.3",
           "category": "Contributed",
-          "url": "https://github.com/geosmall/Arduino_STM32_LL/releases/download/0.0.2/Arduino_STM32_LL-0.0.2.tar.bz2",
-          "archiveFileName": "Arduino_STM32_LL-0.0.2.tar.bz2",
-          "checksum": "SHA-256:68e6af5bd1d10107259b37b07a341d88771ee1d6a6d07e8f8b56759e0eee0f9f",
-          "size": "27136069",
+          "url": "https://github.com/geosmall/Arduino_STM32_LL/releases/download/0.0.3/Arduino_STM32_LL-0.0.3.tar.bz2",
+          "archiveFileName": "Arduino_STM32_LL-0.0.3.tar.bz2",
+          "checksum": "SHA-256:2291341a09da79182d80d7a8796dbbe37abb4a61eeb1c709b6d8d19448473628",
+          "size": "26644812",
           "boards": [
             {"name": "Nucleo-64"},
             {"name": "Generic STM32F4 series"},
