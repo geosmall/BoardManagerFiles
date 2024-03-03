@@ -4,4 +4,4 @@ Storage for Arduino Boards Manager JSON and package files for STM32 LL based cor
 
 Add this link in the "Additional Boards Managers URLs" field:
 
-https://github.com/geosmall/BoardManagerFiles/raw/main/package_stm32_ll_index.json
+https://github.com/geosmall/BoardManagerFiles/raw/main/package_uvos_stm32_index.json
