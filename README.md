@@ -10,7 +10,7 @@ Arduino Board Manager package index for **STM32 Robotics Core** - A comprehensiv
 2. Go to **File → Preferences**
 3. Add this URL to **"Additional Boards Manager URLs"**:
    ```
-   https://raw.githubusercontent.com/geosmall/BoardManagerFiles/main/package_stm32_robotics_index.json
+   https://github.com/geosmall/BoardManagerFiles/raw/main/package_stm32_robotics_index.json
    ```
 4. Go to **Tools → Board → Boards Manager**
 5. Search for **"STM32 Robotics"**
@@ -21,7 +21,7 @@ Arduino Board Manager package index for **STM32 Robotics Core** - A comprehensiv
 ```bash
 # Add Board Manager URL
 arduino-cli config add board_manager.additional_urls \
-  https://raw.githubusercontent.com/geosmall/BoardManagerFiles/main/package_stm32_robotics_index.json
+  https://github.com/geosmall/BoardManagerFiles/raw/main/package_stm32_robotics_index.json
 
 # Update index and install
 arduino-cli core update-index
