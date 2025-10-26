@@ -1,54 +1,15 @@
 {
-  "packages": [{
-    "name": "STM32_Robotics",
-    "maintainer": "geosmall",
-    "websiteURL": "https://github.com/geosmall/Arduino_Core_STM32",
-    "email": "",
-    "help": {
-      "online": "https://github.com/geosmall/Arduino_Core_STM32/issues"
-    },
-    "platforms": [{
-      "name": "STM32 Robotics Core",
-      "architecture": "stm32",
-      "version": "1.0.0",
-      "category": "Contributed",
-      "url": "https://github.com/geosmall/Arduino_Core_STM32/releases/download/v1.0.0/STM32-Robotics-1.0.0.tar.bz2",
-      "archiveFileName": "STM32-Robotics-1.0.0.tar.bz2",
-      "checksum": "SHA-256:PLACEHOLDER",
-      "size": "0",
-      "boards": [
-        {"name": "NUCLEO_F411RE"},
-        {"name": "BLACKPILL_F411CE"},
-        {"name": "NOXE_V3"}
-      ],
-      "toolsDependencies": [
-        {
-          "packager": "STMicroelectronics",
-          "name": "xpack-arm-none-eabi-gcc",
-          "version": "14.2.1-1.1"
-        },
-        {
-          "packager": "STMicroelectronics",
-          "name": "xpack-openocd",
-          "version": "0.12.0-6"
-        },
-        {
-          "packager": "STMicroelectronics",
-          "name": "STM32Tools",
-          "version": "2.3.1"
-        },
-        {
-          "packager": "STMicroelectronics",
-          "name": "CMSIS",
-          "version": "5.9.0"
-        },
-        {
-          "packager": "STMicroelectronics",
-          "name": "STM32_SVD",
-          "version": "1.18.1"
-        }
-      ]
-    }],
-    "tools": []
-  }]
+  "packages": [
+    {
+      "name": "STM32_Robotics",
+      "maintainer": "geosmall",
+      "websiteURL": "https://github.com/geosmall/Arduino_Core_STM32",
+      "email": "",
+      "help": {
+        "online": "https://github.com/geosmall/Arduino_Core_STM32/issues"
+      },
+      "platforms": [],
+      "tools": []
+    }
+  ]
 }
