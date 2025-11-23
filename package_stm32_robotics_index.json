@@ -16,6 +16,54 @@
           "category": "Contributed",
           "url": "https://github.com/geosmall/Arduino_Core_STM32/releases/download/robo-1.1.0/STM32-Robotics-1.1.0.tar.bz2",
           "archiveFileName": "STM32-Robotics-1.1.0.tar.bz2",
+          "checksum": "SHA-256:9a6d26cd00cde5f8223851e925a1f4da11c14bc38618448693307cc082d94f84",
+          "size": "71663586",
+          "boards": [
+            {
+              "name": "NUCLEO_F411RE"
+            },
+            {
+              "name": "BLACKPILL_F411CE"
+            },
+            {
+              "name": "NOXE_V3"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "STM32_Robotics",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "12.2.1-1.2"
+            },
+            {
+              "packager": "STM32_Robotics",
+              "name": "xpack-openocd",
+              "version": "0.12.0-1"
+            },
+            {
+              "packager": "STM32_Robotics",
+              "name": "STM32Tools",
+              "version": "2.3.1"
+            },
+            {
+              "packager": "STM32_Robotics",
+              "name": "CMSIS",
+              "version": "5.9.0"
+            },
+            {
+              "packager": "STM32_Robotics",
+              "name": "STM32_SVD",
+              "version": "1.18.1"
+            }
+          ]
+        },
+        {
+          "name": "STM32 Robotics Core",
+          "architecture": "stm32",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/geosmall/Arduino_Core_STM32/releases/download/robo-1.1.0/STM32-Robotics-1.1.0.tar.bz2",
+          "archiveFileName": "STM32-Robotics-1.1.0.tar.bz2",
           "checksum": "SHA-256:b2be9908da3a00c0ff2c82ea18e4279584713f881546a543041d8a41db955904",
           "size": "71661963",
           "boards": [
