@@ -163,7 +163,7 @@ All libraries have been validated on real hardware:
 ## Development Repository
 
 **Source Code**: https://github.com/geosmall/Arduino_Core_STM32
-- **Branch**: `ardu_ci` (consolidated development branch)
+- **Branch**: `dev` (consolidated development branch)
 - **Documentation**: Comprehensive `CLAUDE.md` with project overview
 - **Session Notes**: `SESSION_NOTES.md` with development history
 
