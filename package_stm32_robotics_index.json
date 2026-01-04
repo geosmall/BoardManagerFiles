@@ -43,7 +43,7 @@
             {
               "packager": "STM32_Robotics",
               "name": "STM32Tools",
-              "version": "2.3.1"
+              "version": "2.4.1"
             },
             {
               "packager": "STM32_Robotics",
@@ -91,7 +91,7 @@
             {
               "packager": "STM32_Robotics",
               "name": "STM32Tools",
-              "version": "2.3.1"
+              "version": "2.4.1"
             },
             {
               "packager": "STM32_Robotics",
@@ -191,35 +191,35 @@
         },
         {
           "name": "STM32Tools",
-          "version": "2.3.1",
+          "version": "2.4.1",
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.3.1/STM32Tools-2.3.1-windows.tar.bz2",
-              "archiveFileName": "STM32Tools-2.3.1-windows.tar.bz2",
-              "checksum": "SHA-256:c3366000f3bca4fb91ba9f63c796e0e41f98b7cc375db9c087c88be499c022b5",
-              "size": "2424875"
+              "url": "https://github.com/geosmall/Arduino_Tools/releases/download/2.4.1/STM32Tools-2.4.1-windows.tar.bz2",
+              "archiveFileName": "STM32Tools-2.4.1-windows.tar.bz2",
+              "checksum": "SHA-256:f36cbc3e02a34de8e545750c810b2fe1396611d459fb8f2cb5ff1394701cd8c4",
+              "size": "1252870"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.3.1/STM32Tools-2.3.1-mac.tar.bz2",
-              "archiveFileName": "STM32Tools-2.3.1-mac.tar.bz2",
-              "checksum": "SHA-256:333e9dbbffc74561f502b043feb078dffa89827b8c8a1b16d9e5edcf4256a722",
-              "size": "206654"
+              "url": "https://github.com/geosmall/Arduino_Tools/releases/download/2.4.1/STM32Tools-2.4.1-mac.tar.bz2",
+              "archiveFileName": "STM32Tools-2.4.1-mac.tar.bz2",
+              "checksum": "SHA-256:a1b02921bedd99487ddc9e6c4b7a56d2e47c4ea17279c693875c78390286e6b0",
+              "size": "169666"
             },
             {
               "host": "arm64-apple-darwin",
-              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.3.1/STM32Tools-2.3.1-mac.tar.bz2",
-              "archiveFileName": "STM32Tools-2.3.1-mac.tar.bz2",
-              "checksum": "SHA-256:333e9dbbffc74561f502b043feb078dffa89827b8c8a1b16d9e5edcf4256a722",
-              "size": "206654"
+              "url": "https://github.com/geosmall/Arduino_Tools/releases/download/2.4.1/STM32Tools-2.4.1-mac.tar.bz2",
+              "archiveFileName": "STM32Tools-2.4.1-mac.tar.bz2",
+              "checksum": "SHA-256:a1b02921bedd99487ddc9e6c4b7a56d2e47c4ea17279c693875c78390286e6b0",
+              "size": "169666"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.3.1/STM32Tools-2.3.1-linux.tar.bz2",
-              "archiveFileName": "STM32Tools-2.3.1-linux.tar.bz2",
-              "checksum": "SHA-256:f7f8aee2f7c9e42db4cac402301d364da46547632e24b9b12cc7e46c1174300a",
-              "size": "159389"
+              "url": "https://github.com/geosmall/Arduino_Tools/releases/download/2.4.1/STM32Tools-2.4.1-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-2.4.1-linux.tar.bz2",
+              "checksum": "SHA-256:e2e53f513c700c23d06a966790432085968e0a865884e3766e5e66008d2dad0d",
+              "size": "163326"
             }
           ]
         },
