@@ -118,16 +118,35 @@ arduino-cli board listall STM32_Robotics
   - 512KB Flash, 128KB RAM
   - On-board ST-Link (can be reflashed to J-Link for HIL)
 
-- **BlackPill F411CE** (Secondary)
-  - STM32F411CE @ 100MHz
-  - 512KB Flash, 128KB RAM
-  - Compact form factor
+### Flight Controller Boards (with UF2 Bootloader)
+- **MATEK H743-WLITE** (MATEK_H743VI)
+  - STM32H743VIT6 @ 480MHz
+  - 2MB Flash, 1MB RAM
+  - ICM42688P IMU, dual SPI buses
 
-### Flight Controller Boards
-- **NOXE V3** (JHEF411)
-  - STM32F411CE-based flight controller
-  - 5 motor outputs, SPI flash, dual SPI buses
+- **DevEBox H743** (DEVEBOX_H743)
+  - STM32H743VIT6 @ 480MHz
+  - 2MB Flash, 1MB RAM
+  - New in v1.1.0
+
+- **NERO F7** (BKMN_NERO)
+  - STM32F722RET6 @ 216MHz
+  - 512KB Flash, 256KB RAM
+  - ICM-20602 IMU
+
+- **NOXE V3** (JHEF_JHEF411)
+  - STM32F411CEU6 @ 100MHz
+  - 512KB Flash, 128KB RAM
   - Generated via Betaflight converter
+
+- **OpenPilot Revolution** (OPEN_REVO)
+  - STM32F405RGT6 @ 168MHz
+  - 1MB Flash, 192KB RAM
+
+- **BlackPill F411CE 8MHz** (BLACKPILL_F411CE_8MHZ)
+  - STM32F411CEU6 @ 100MHz
+  - 512KB Flash, 128KB RAM
+  - 8MHz crystal variant for UF2 bootloader
 
 ## Hardware Validation
 
