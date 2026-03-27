@@ -57,14 +57,8 @@ arduino-cli board listall STM32_Robotics
 #### Sensors
 - **imu** - High-level C++ wrapper for InvenSense IMU sensors
   - Multi-instance support with context-based design
-  - Chip detection (ICM-42688-P, MPU-6000, MPU-9250)
+  - Chip detection (ICM-42688-P, MPU-6000, MPU-9250, ICM-206xx)
   - Interrupt support (EnableDataReadyInt1)
-
-- **ICM42688P** - Low-level ICM-42688-P 6-axis IMU driver
-  - 100% InvenSense factory algorithms preserved
-  - Manufacturer self-test with bias calculation
-  - Interrupt-driven data acquisition at 1kHz
-  - Clock calibration for processed sensor data
 
 #### Storage
 - **LittleFS** - SPI flash filesystem with wear leveling
@@ -122,7 +116,7 @@ arduino-cli board listall STM32_Robotics
 - **MATEK H743-WLITE** (MATEK_H743VI)
   - STM32H743VIT6 @ 480MHz
   - 2MB Flash, 1MB RAM
-  - ICM42688P IMU, dual SPI buses
+  - ICM-42688-P IMU, dual SPI buses
 
 - **DevEBox H743** (DEVEBOX_H743)
   - STM32H743VIT6 @ 480MHz
@@ -159,15 +153,10 @@ All libraries have been validated on real hardware:
 - **minIniStorage**: Configuration management (6 test suites passed)
 
 ### IMU Testing
-- **ICM42688P**: 6-axis IMU with complete test suite
-  - WHO_AM_I verification ✅
-  - Manufacturer self-test (gyro + accel PASS) ✅
-  - Interrupt-driven data at 1kHz ✅
-  - Processed data with clock calibration ✅
-
-- **imu wrapper**: High-level API validation
+- **imu**: High-level IMU wrapper (ICM-42688-P, MPU-6000, MPU-9250, ICM-206xx)
+  - WHO_AM_I verification and chip auto-detection ✅
   - Self-test integration ✅
-  - Interrupt-driven data acquisition ✅
+  - Interrupt-driven data acquisition at 1kHz ✅
 
 ### Communication Testing
 - **SerialRx IBus**: FlySky FS-iA6B receiver
